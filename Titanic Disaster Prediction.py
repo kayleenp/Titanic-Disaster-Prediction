@@ -56,6 +56,10 @@ fig, axes = plt.subplots(nrows=1, ncols=1,figsize=(6, 4))
 ax = sns.swarmplot(x='Survived', y='Age', data= train_df)
 ax.set_title('Total survival rate from age')
 
+# Showing classifications of age and their fares
+fig, axes = plt.subplots(nrows=1, ncols=1,figsize=(9, 7))
+ax = sns.swarmplot(x='Fare',y='Age', data=train_df)
+
 # Showing total survivors and victim according to number of parents/ children
 ax = sns.FacetGrid(data=train_df, col='Survived')
 ax.height : 2
