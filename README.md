@@ -24,7 +24,7 @@ Tujuan dari pembuatan program ini adalah untuk mengetahui klasifikasi korban ber
 - Library yang digunakan dalam program ini adalah sebagai berikut:
 
 
-    dash
+   *dash
 
 
     dash_core_components as dcc
@@ -47,7 +47,7 @@ Tujuan dari pembuatan program ini adalah untuk mengetahui klasifikasi korban ber
 
     seaborn
 
-
+*
 
 
 
